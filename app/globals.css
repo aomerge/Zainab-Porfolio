@@ -4,15 +4,16 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: #161616;
+  --background-end-rgb: #1b1b1b;
+  --prymary-rgb: #e43e215b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: #161616;
+    --background-end-rgb: #1B1B1B;
   }
 }
 
@@ -21,9 +22,9 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      var(--background-end-rgb)
     )
-    rgb(var(--background-start-rgb));
+    var(--background-start-rgb);
 }
 
 @layer utilities {
@@ -31,3 +32,17 @@ body {
     text-wrap: balance;
   }
 }
+
+#product-design {
+  background: linear-gradient(21deg, #1B1B1B 70%, var(--prymary-rgb) 100%);
+}
+#user-experience {
+  background: linear-gradient(51deg, #1B1B1B 70%, var(--prymary-rgb) 100%);
+}
+#no-code-develop {
+  background: linear-gradient(-120deg, #1B1B1B 70%, var(--prymary-rgb) 100%);
+}
+footer {
+  background: linear-gradient(-120deg, #1B1B1B 70%, var(--prymary-rgb) 100%);
+}
+
