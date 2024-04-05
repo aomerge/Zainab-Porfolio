@@ -60,6 +60,7 @@ export default function AboutComponent() {
                 >
                   <g transform="matrix(1,0,0,1,-911.513,-206.294)">
                     <path
+                      fillRule="evenodd"
                       d="M945.274,210.05L945.274,270.06"
                       style={{
                         fill: "none",
@@ -69,6 +70,7 @@ export default function AboutComponent() {
                     />
                     <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,705.219,1185.33)">
                       <path
+                        fillRule="evenodd"
                         d="M945.274,210.05L945.274,270.06"
                         style={{
                           fill: "none",
@@ -81,7 +83,12 @@ export default function AboutComponent() {
                 </svg>
               </span>
             </button>
-            <button onClick={()=>copiarAlPortapapeles("¡Hola, este es un texto de prueba!")} className="border flex items-center justify-center rounded-md px-4 py-0">
+            <button
+              onClick={() =>
+                copiarAlPortapapeles("¡Hola, este es un texto de prueba!")
+              }
+              className="border flex items-center justify-center rounded-md px-4 py-0"
+            >
               <p className="mr-5">{email}</p>
               <span className="pl-3 flex items-center border-l-2 h-full ">
                 <svg

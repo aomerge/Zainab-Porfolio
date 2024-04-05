@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   output: "export",
-  assetPrefix: "https://github.com/aomerge/Zainab-Porfolio",
+  basePath: isProd ? "/Zainab-Porfolio" : "",
+  assetPrefix: isProd ? "/Zainab-Porfolio" : "",  
 };
 
 export default nextConfig;
