@@ -55,14 +55,9 @@ jobs:
       - name: setup Pages
         uses: actions/configure-pages@v4
 
-      - name: upload page artifactor
-        uses: actions/upload-artifact@v4
-        with:
-          name: Upload artifact
-          path: ./
-
       - name: Deploy
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: Upload artifact
+          artifact_name: build-artifact${{ github.run_id }}
+
