@@ -38,7 +38,7 @@ jobs:
         run: ls out
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-artifact${{ github.run_id }}
           path: ./out
@@ -56,7 +56,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: upload page artifactor
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: Upload artifact
           path: ./
