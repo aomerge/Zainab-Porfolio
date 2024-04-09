@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: "export",
-  basePath: isProd ? "/Zainab-Porfolio" : "",
-  assetPrefix: isProd ? "/Zainab-Porfolio" : "",  
+  // No necesitas especificar `output: 'export'` aquí.
+  // Asegúrate de usar `next build && next export` en tus scripts.
+  basePath: isProd ? '/Zainab-Porfolio' : '',
+  assetPrefix: isProd ? '/Zainab-Porfolio/' : '',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
