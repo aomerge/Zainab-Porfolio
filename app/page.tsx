@@ -37,10 +37,10 @@ export default function Home() {
         text="UX Case study"
       >
         <div className=" scale-95 opacity-75 overflow-hidden rotate-12 border relative bg-slate-50 top-2  2xl:left-20 sm:left-10 rounded-md 2xl:h-52 2xl:w-52 sm:h-44 sm:w-44">
-          <img src="https://via.placeholder.com/500x500" alt="img-mokup" />
+          <img src="/img/500x500.png" alt="img-mokup" />
         </div>
         <div className=" z-10 shadow-xl shadow-gray-700 -rotate-12 bg-black  border rounded-md  overflow-hidden  absolute 2xl:h-52 2xl:w-52 sm:h-44 sm:w-44">
-          <img src="https://via.placeholder.com/500x500" alt="img-mokup" />
+          <img src="/img/500x500.png" alt="img-mokup" />
         </div>
       </Product>
       <Product
@@ -48,8 +48,8 @@ export default function Home() {
         title="AI Music product"
         text="UX Case study"
       >
-        <div className=" 2xl:h-[600px] overflow-hidden border rounded-md w-1/2">
-          <img src="https://via.placeholder.com/500x800" alt="img-mokup" />
+        <div className=" 2xl:h-[600px] xl:w-500px 2xl:w-[500px] overflow-hidden border rounded-md w-1/2">
+          <img src="img/500x800.png" alt="img-mokup" />
         </div>
       </Product>
       <Product
@@ -58,10 +58,10 @@ export default function Home() {
         text="UX Case study"
       >
         <div className=" overflow-hidden border relative opacity-75 bg-slate-50 top-7 left-7 rounded-md h-52 w-52">
-          <img src="https://via.placeholder.com/500x500" alt="img-mokup" />
+          <img src="/img/500x500.png" alt="img-mokup" />
         </div>
         <div className=" z-10 bg-black  border rounded-md   shadow-xl shadow-gray-700 overflow-hidden  absolute h-52 w-52">
-          <img src="https://via.placeholder.com/500x500" alt="img-mokup" />
+          <img src="/img/500x500.png" alt="img-mokup" />
         </div>
       </Product>
       <Footer />
