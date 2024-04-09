@@ -30,7 +30,7 @@ export default function AboutComponent() {
   return (
     <section
       id="About"
-      className="flex sm:flex-col-reverse  2xl:flex-row justify-between col-start-1 col-end-13 w-full 2xl:h-96 px-12 py-9 border border-gray-800 2xl:bg-secondary rounded-lg"
+      className="flex sm:flex-col-reverse  xl:flex-row justify-between col-start-1 col-end-13 w-full 2xl:h-96 px-12 py-9 border border-gray-800 2xl:bg-secondary rounded-lg"
     >
       <div className="flex flex-col items-stretch justify-around 2xl:gap-20 sm:gap-2">
         <h2 className="text-2xl text-gray-300 font-bold">Ui/Ux Designer</h2>

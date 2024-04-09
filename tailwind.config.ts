@@ -23,6 +23,7 @@ const config: Config = {
         secondary: "#1B1B1B",
       },
       screens: {
+        l: "1024px",
         xl: "1280px",
         sm: "300px",
         "2xl": "1500px",

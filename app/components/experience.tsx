@@ -34,12 +34,11 @@ export default function ExperienceComponent() {
   return (
     <section
       id="jobs"
-      className="sm:row-start-5 sm:row-end-6 sm:col-start-1 sm:col-end-13 2xl:row-start-3 2xl:row-end-6 rounded-md 2xl:col-start-1 2xl:col-end-7 border px-8 py-2 border-gray-800 bg-secondary"
+      className="sm:row-start-5 sm:row-end-6 sm:col-start-1 sm:col-end-13 xl:row-start-3 xl:row-end-7 rounded-md xl:col-start-1 xl:col-end-7 border px-8 py-2 border-gray-800 bg-secondary"
     >
       <h2 className=" font-semibold text-4xl mt-5 mb-14">
         <span>
           <svg
-          
             className="h-4 w-4 inline-block"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -85,7 +84,6 @@ export default function ExperienceComponent() {
           );
         })}
       </ul>
-      
     </section>
   );
 }
